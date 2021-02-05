@@ -10,7 +10,6 @@
     color: white;
     font-weight: 300;
     font-size: 40px;
-    margin-bottom: 35px;
   }
   .input-field {
     position: relative;
@@ -25,10 +24,22 @@
       left: 35px;
       color: grey;
     }
+    .weight-icon {
+      position: absolute;
+      left: 200px;
+      color: grey;
+    }
 
     .text-input {
       height: 6vh;
       width: 75vw;
+      padding-left: 12vw;
+      border-radius: 5px;
+      border: none;
+    }
+    .meassurements-input {
+      height: 6vh;
+      width: 30vw;
       padding-left: 12vw;
       border-radius: 5px;
       border: none;
